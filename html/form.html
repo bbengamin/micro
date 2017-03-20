@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Title</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Пункты выдачи займов</a>
+    <a href="#">Заказать звонок</a>
+    <a href="#">Проверить задолженность</a>
+    <a href="#">Оплата услуг on-line</a>
+    <div class="contact-info">
+        <p>Заявки по телефону:</p>
+        <p class="secendary-text">(звонки бесплатно)</p>
+        <span class="tel">8 <span>(800)</span> 234-88-77</span>
+        <span class="tel">8 <span>(3022)</span> 50-00-40</span>
+    </div>
+</div>
+<header>
+    <div class="container-fluid padding0">
+
+        <div class="left-block col-md-2 col-sm-2 col-xs-2 padding0">
+            <div class="logo">
+                <img src="img/logo.png" alt="alt" class="img-responsive">
+                <span class="logo-text__top">МicroзайМ</span>
+                <span class="logo-text__bottom">Здесь и сейчас</span>
+            </div>
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li><a href="#">Пункты выдачи займов</a></li>
+                    <li><a href="#">Заказать звонок</a></li>
+                    <li><a href="#">Проверить задолженность</a></li>
+                    <li><a href="#">Оплата услуг on-line</a></li>
+                </ul>
+            </nav>
+            <span class="open-menu" onclick="openNav()">
+                            <span></span>
+                            <span></span>
+                        </span>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10 padding0">
+            <div class="form-top">
+                <span class="top-line"><a href="index.html">Главная</a></span>
+                <h2>Проверить задолженность</h2>
+                <p>Для проверки задолженности внесите данные.</p>
+                <p>После внесения данных вы получите возможность оплатить задолженность онлайн.</p>
+                <form action="">
+                    <div class="form-wrapp">
+                      <div class="form-block">
+                          <label for="surname">Фамилия</label>
+                          <input type="text" name="surname" id="surname">
+                      </div>
+                      <div class="form-block">
+                          <label for="name">Имя</label>
+                          <input type="text" name="name" id="name">
+                      </div>
+                      <div class="form-block">
+                          <label for="patronymic">Отчество</label>
+                          <input type="text" name="patronymic" id="patronymic">
+                      </div>
+                      <div class="pasport-id">
+                          <div class="form-block form-block-small">
+														<label for="pasport">Серия и номер паспорта</label>
+                              <input type="text" name="pasport" id="pasport">
+                          </div>
+                          <div class="form-block">
+                              <input type="text">
+                          </div>
+                      </div>
+                    </div>
+                    <div class="form-button">
+                      <input type="submit" name="" value="УЗНАТЬ ЗАДОЛЖЕННОСТЬ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container-fluid padding0">
+        <div class="col-md-2 col-sm-2 col-xs-2 padding0">
+            <div class="contact-info form-info hidden-sm">
+                <p>Заявки по телефону:</p>
+                <p class="secendary-text">(звонки бесплатно)</p>
+                <span class="tel">8 <span>(800)</span> 234-88-77</span>
+                <span class="tel">8 <span>(3022)</span> 50-00-40</span>
+            </div>
+        </div>
+        <div class="graph-top col-md-10 col-sm-10 col-xs-10 padding0">
+          <div class="graph-wrapp">
+            <div class="graph">
+              <h2>ГРАФИК ПЛАТЕЖЕЙ</h2>
+              <div class="graph-block-wrapp">
+
+                <div class="graph-block-content">
+                  <ul class="graph-top-line ">
+                    <li>Номер договора</li>
+                    <li>Статус</li>
+                    <li>Задолженность</li>
+                    <li>Дата следующего платежа</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content">
+                  <ul class="graph-table top-g">
+                    <li>1100-02/2016</li>
+                    <li class="danger">Выдан</li>
+                    <li class="danger">14509.2</li>
+                    <li class="light">11.03.2017</li>
+                  </ul>
+
+                </div>
+                <div class="graph-block-content">
+                  <ul class="graph-table">
+                    <li>938-02/2016</li>
+                    <li class="green">Закрыт</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+
+                </div>
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>938-02/2016</li>
+                    <li class="green">Закрыт</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>938-02/2016</li>
+                    <li class="green">Закрыт</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>938-02/2016</li>
+                    <li class="green">Закрыт</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>938-02/2016</li>
+                    <li class="green">Закрыт</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>535-02/2016</li>
+                    <li class="orange">Закрыт с просрочкой</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content">
+                  <ul class="graph-table">
+                    <li>535-02/2016</li>
+                    <li class="orange">Закрыт с просрочкой</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+
+                </div>
+                <div class="graph-block-content">
+                  <ul class="graph-table">
+                    <li>535-02/2016</li>
+                    <li class="orange">Закрыт с просрочкой</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>535-02/2016</li>
+                    <li class="orange">Закрыт с просрочкой</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+                <div class="graph-block-content ">
+                  <ul class="graph-table">
+                    <li>938-02/2016</li>
+                    <li class="green">Закрыт</li>
+                    <li class="null">0</li>
+                    <li>11.03.2017</li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="small-desktop-graph ">
+                <div class="small-graph-content top-g">
+                  <p>1100-02/2016</p>
+                  <strong class="danger">Выдан</strong>
+                  <div class="small-wrapp">
+                    <ul>
+                      <li>Задолженность</li>
+                      <li>Дата следующего платежа</li>
+                    </ul>
+                    <ul class="right-wrapp">
+                      <li class="danger">14509.2</li>
+                      <li class="date">11.03.2017</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="small-graph-content">
+                  <p>1100-02/2016</p>
+                  <strong class="green">Закрыт</strong>
+                  <div class="small-wrapp">
+                    <ul>
+                      <li>Задолженность</li>
+                      <li>Дата следующего платежа</li>
+                    </ul>
+                    <ul class="right-wrapp">
+                      <li class="null">0</li>
+                      <li class="bold date">11.03.2017</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="small-graph-content">
+                  <p>1100-02/2016</p>
+                  <strong class="orange">Закрыт с просрочкой</strong>
+                  <div class="small-wrapp">
+                    <ul class="left-wrapp">
+                      <li>Задолженность</li>
+                      <li>Дата следующего платежа</li>
+                    </ul>
+                    <ul class="right-wrapp">
+                      <li class="null">0</li>
+                      <li class="bold date">11.03.2017</li>
+                    </ul>
+                  </div>
+                </div>
+
+
+            </div>
+
+            </div>
+            <div class="payment">
+              <div class="next-payment">
+                <h3>СЛЕДУЮЩИЙ<br>ПЛАТЕЖ</h3>
+                <strong>12 500 <span>руб.</span></strong>
+                <span>25.02.2017</span>
+              </div>
+              <div class="online">
+                <h3>ОПЛАТИТЬ<span>ONLINE</span></h3>
+                <p>Вы можете внести платеж онлайн с помощью кошелька ComePay, терминала или банковской карты</p>
+                <form action="">
+                  <div class="input-wrapp">
+                    <input type="text" name="summ" placeholder="Сумма платежа">
+                    <input type="text" name="phone" placeholder="+7 (ххх) ххх-хх-хх">
+                  </div>
+                  <div class="submit-wrapp">
+                    <input type="submit" name="" value="ОПЛАТИТЬ">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid padding0">
+        <div class="col-md-2 col-sm-2 col-xs-2 padding0"></div>
+        <div class="map-footer col-md-10 col-sm-10 col-xs-10 padding0">
+            <div id="map">
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiMsEABOUVziAQ-IXKhcHsDytBbV055UA&callback=initMap"
+                        async defer></script>
+                <script>
+                    function initMap() {
+                        // Create a map object and specify the DOM element for display.
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            center: {lat: 49.984511, lng: 36.243787},
+                            scrollwheel: false,
+                            zoom: 18
+                        });
+                        // Create an array of styles.
+                        var styles = [
+                            {
+                                featureType: "all",
+                                stylers: [
+                                    {lightness: 0},
+                                    {saturation: -80}
+                                ]
+                            }, {
+                                featureType: "road.arterial",
+                                elementType: "geometry",
+                                stylers: [
+                                    {hue: "#00ffee"},
+                                    {saturation: 50}
+                                ]
+                            }, {
+                                featureType: "poi.business",
+                                elementType: "labels",
+                                stylers: [
+                                    {visibility: "on"}
+                                ]
+                            }
+                        ];
+                        var styledMap = new google.maps.StyledMapType(styles,
+                            {name: "Styled Map"});
+                        var mapOptions = {
+                            zoom: 18,
+                            scrollwheel: false,
+                            center: new google.maps.LatLng(49.984511, 36.243787),
+                            mapTypeControlOptions: {
+                                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                            }
+                        };
+                        var map = new google.maps.Map(document.getElementById('map'),
+                            mapOptions);
+                        map.mapTypes.set('map_style', styledMap);
+                        map.setMapTypeId('map_style');
+                        var image = 'img/flag-icon.png';
+                        var beachMarker = new google.maps.Marker({
+                            position: {lat: 49.984534, lng: 36.242216},
+                            map: map,
+                            icon: image,
+                            width: 70,
+                            height: 70
+                        });
+                    }
+                </script>
+
+            </div>
+            <div class="map-nav">
+                <h2>офисы в чите</h2>
+                <ul>
+                    <li><a href="#">проспект Фадеева, 14а</a></li>
+                    <li><a href="#" class="active">проспект Фадеева, 33е (киоск)</a></li>
+                    <li><a href="#">ул. Гагарина, 7а</a></li>
+                    <li><a href="#">проспект Советов, 5в (киоск)</a></li>
+                    <li><a href="#">ул. Бабушкина, 104/3 (киоск)</a></li>
+                    <li><a href="#">ул. Комсомольская, 105а (киоск)</a></li>
+                    <li><a href="#">ул. Ленина, 125/1 (киоск)</a></li>
+                    <li><a href="#">ул. Новобульварная, 96</a></li>
+                    <li><a href="#">ул. Весенняя, 18б (киоск)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="overlay" id="overlay" onclick="closeNav()">
+
+</div>
+
+
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("overlay").style.width = "100%";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("overlay").style.width = "0";
+    }
+</script>
+
+</body>
+
+</html>

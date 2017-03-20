@@ -1,0 +1,16 @@
+2017-03-13 19:55:20 - PHP Notice:  Undefined index: sort_order in /home/ubuntu/workspace/admin/controller/design/banner.php on line 386
+2017-03-13 20:06:37 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 21
+2017-03-13 20:56:56 - PHP Notice:  Undefined index: clientdocs in /home/ubuntu/workspace/catalog/controller/product/debt.php on line 27
+2017-03-13 20:56:56 - PHP Notice:  Undefined index: clientdocn in /home/ubuntu/workspace/catalog/controller/product/debt.php on line 27
+2017-03-13 21:18:40 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 21
+2017-03-13 21:53:33 - PHP Notice:  Use of undefined constant fail - assumed 'fail' in /home/ubuntu/workspace/catalog/view/theme/default/template/product/debt.tpl on line 239
+2017-03-13 21:53:53 - PHP Notice:  Use of undefined constant fail - assumed 'fail' in /home/ubuntu/workspace/catalog/view/theme/default/template/product/debt.tpl on line 239
+2017-03-13 21:54:11 - PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/catalog/controller/product/debt.php on line 40
+2017-03-13 21:55:46 - PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/catalog/controller/product/debt.php on line 41
+2017-03-13 21:55:51 - PHP Notice:  Use of undefined constant fail - assumed 'fail' in /home/ubuntu/workspace/catalog/view/theme/default/template/product/debt.tpl on line 239
+2017-03-13 21:56:05 - PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/catalog/controller/product/debt.php on line 41
+2017-03-13 21:58:02 - PHP Notice:  Use of undefined constant fail - assumed 'fail' in /home/ubuntu/workspace/catalog/view/theme/default/template/product/debt.tpl on line 239
+2017-03-13 23:24:35 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 21
+2017-03-13 23:33:38 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 21
+2017-03-14 19:18:53 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 21
+2017-03-19 13:18:26 - PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/system/library/session.php on line 21
